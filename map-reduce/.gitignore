@@ -1,0 +1,4 @@
+temperature_2/data/**
+!temperature_2/data/.keep
+.vscode/**
+tmp/
