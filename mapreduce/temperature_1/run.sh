@@ -1,0 +1,1 @@
+cat temperature_sample.txt | python mapper.py | sort -t 1 | python reducer.py
