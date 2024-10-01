@@ -161,3 +161,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 .vscode/
+hadoop-docker/workspace/D1.7GB/
+hadoop-docker/workspace/D1.7GB.zip
+hadoop-docker/workspace/big-data.txt
