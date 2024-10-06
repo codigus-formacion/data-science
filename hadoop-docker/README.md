@@ -56,3 +56,26 @@ yarn jar /opt/hadoop/share/hadoop/tools/lib/hadoop-streaming-3.3.6.jar -files ha
 
 pip install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org mrjob==0.5.6
 pip install --upgrade pip --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org
+
+Job Counters 
+    Launched map tasks=2
+    Launched reduce tasks=1
+    Rack-local map tasks=2
+    Total time spent by all maps in occupied slots (ms)=6147
+    Total time spent by all reduces in occupied slots (ms)=2242
+    Total time spent by all map tasks (ms)=6147
+    Total time spent by all reduce tasks (ms)=2242
+    ...
+Map-Reduce Framework
+    Map input records=44
+    Map output records=810
+    Map output bytes=6542
+    Map output materialized bytes=8174
+    Input split bytes=162
+    Combine input records=0
+    Combine output records=0
+    Reduce input groups=381
+    Reduce shuffle bytes=8174
+    Reduce input records=810
+    Reduce output records=381
+    ...
