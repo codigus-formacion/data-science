@@ -2,10 +2,8 @@ Input here is a set of documents, output is a list, where each word is associate
 
 books.json -> input
 
-inverted_index.json -> output
-
 MapReduce.py -> MapReduce framework
 
-inverted_index.py -> MapReduce impelemntation
+inverted_index.py -> MapReduce implementation
 
 

@@ -4,8 +4,6 @@ Output is matrix multiplication AxB
 
 matrix.json -> input
 
-multiply.json -> output
-
 MapReduce.py -> MapReduce framework
 
-multiply.py -> MapReduce impelemntation
+multiply.py -> MapReduce implementation

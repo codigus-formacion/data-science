@@ -3,8 +3,6 @@ Output is a list of all non-symmetric relationships.
 
 friends.json -> input
 
-asymmetric_friendships.json -> output
-
 MapReduce.py -> MapReduce framework
 
-asymmetric_friendships.py -> MapReduce impelemntation
+asymmetric_friendships.py -> MapReduce implementation

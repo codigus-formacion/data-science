@@ -4,8 +4,6 @@ Output is a set of trimmed nucleotides (last 10 characters removed), with duplic
 
 dna.json -> input
 
-unique_trims.json -> output
-
 MapReduce.py -> MapReduce framework
 
-unique_trims.py -> MapReduce impelemntation
+unique_trims.py -> MapReduce implementation
