@@ -1,6 +1,6 @@
 services:
    namenode:
-      image: apache/hadoop:3.3.6
+      image: apache/hadoop:3.4.1
       hostname: namenode
       command: ["hdfs", "namenode"]
       ports:
@@ -10,7 +10,7 @@ services:
       environment:
           ENSURE_NAMENODE_DIR: "/tmp/hadoop-root/dfs/name"
    datanode:
-      image: apache/hadoop:3.3.6
+      image: apache/hadoop:3.4.1
       command: ["hdfs", "datanode"]
       env_file:
         - ./config
@@ -19,7 +19,7 @@ services:
         replicas: 4
             
    resourcemanager:
-      image: apache/hadoop:3.3.6
+      image: apache/hadoop:3.4.1
       hostname: resourcemanager
       command: ["yarn", "resourcemanager"]
       ports:
@@ -29,7 +29,7 @@ services:
       volumes:
         - ./workspace:/opt/hadoop/workspace
    nodemanager:
-      image: apache/hadoop:3.3.6
+      image: apache/hadoop:3.4.1
       command: ["yarn", "nodemanager"]
       env_file:
         - ./config
