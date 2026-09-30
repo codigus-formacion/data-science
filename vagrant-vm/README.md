@@ -1,37 +1,39 @@
-# 1. Configurar directorio de almacenamiento en VirtualBox
+# Máquina virtual con Vagrant
 
-Dado que el espacio disponible en la carpeta en red es limitado, vamos a **almacenar la máquina virtual en la máquina física**.
+Instrucciones para preparar la máquina virtual de la asignatura en los PCs del laboratorio.
 
-⚠️ Esto significa que, siempre que queramos levantar nuestra máquina virtual, debemos estar en el **mismo equipo físico**.
+Como el espacio disponible en la carpeta en red es limitado, **la máquina virtual se almacenará en el disco local del PC físico** (en `/var/tmp`).
 
-**Pasos:**
-
-1. Abrid **VirtualBox** desde el menú de programas de Ubuntu en el PC del laboratorio.  
-2. Pulsad en el menú **Archivo** → **General**.  
-3. Cambiad la **ruta de trabajo de VirtualBox** para las máquinas virtuales (MVs) a:
-
-```bash
-/var/tmp/VirtualBoxVMs
-```
+> ⚠️ Esto significa que, cada vez que queráis levantar la máquina virtual, tendréis que hacerlo desde el **mismo PC físico** en el que la creasteis.
 
 ---
 
-# 2. Cambiar el directorio de archivos auxiliares de Vagrant
+## 1. Configurar el directorio de almacenamiento en VirtualBox
 
-Por defecto, Vagrant descarga sus archivos auxiliares en el directorio:
+1. Abrid **VirtualBox** desde el menú de aplicaciones de Ubuntu.
+2. Id al menú **Archivo** → **Preferencias** → **General**.
+3. Cambiad la **Carpeta predeterminada de máquinas** (*Default Machine Folder*) a:
+
+   ```text
+   /var/tmp/VirtualBoxVMs
+   ```
+
+---
+
+## 2. Cambiar el directorio de archivos auxiliares de Vagrant
+
+Por defecto, Vagrant guarda las imágenes base (*boxes*) y otros archivos auxiliares en `~/.vagrant.d`, es decir, en la carpeta en red. Para moverlos al disco local, abrid una terminal y ejecutad:
 
 ```bash
-~/.vagrant.d
+echo 'export VAGRANT_HOME=/var/tmp/.vagrant.d' >> ~/.bashrc
 ```
 
-Para cambiar esta ruta, abrid una terminal y ejecutad:
+> 💡 Ejecutad este comando **una sola vez**. Después, cerrad la terminal y abrid una nueva para que se aplique el cambio.
+
+Para comprobar que la variable está bien configurada, ejecutad en la nueva terminal:
 
 ```bash
-export VAGRANT_HOME=/var/tmp/.vagrant.d
+echo "$VAGRANT_HOME"
 ```
 
-💡 Para que este cambio sea permanente y no tengáis que ejecutarlo cada vez que iniciáis sesión, añadidlo al archivo `~/.bash_profile` de vuestro $HOME:
-
-```bash
-echo 'export VAGRANT_HOME=/var/tmp/.vagrant.d' >> ~/.bash_profile
-```
+Debería mostrar `/var/tmp/.vagrant.d`.
