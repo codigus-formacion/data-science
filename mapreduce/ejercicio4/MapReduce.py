@@ -21,7 +21,6 @@ class MapReduce:
         for key in self.intermediate:
             reducer(key, self.intermediate[key])
 
-        # jenc = json.JSONEncoder(encoding='latin-1')
         jenc = json.JSONEncoder()
         for item in self.result:
             print(jenc.encode(item))
