@@ -11,8 +11,3 @@ for line in sys.stdin:
     if word != curr_word:
         curr_word = word
         print(curr_word)
-#   else:
-#       print("DUPLICATED:"+curr_word)
-
-if curr_word == word:
-    print(curr_word)
