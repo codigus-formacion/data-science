@@ -1,0 +1,12 @@
+services:
+  minio:
+    image: chainguard/minio:latest
+    command: server http://minio-minio-{1...4}:9000/data --console-address :9001
+    ports:
+      - 9000-9003:9000
+      - 9101-9104:9001
+    volumes:
+      - /data
+      - ./workspace:/workspace
+    deploy:
+      replicas: 4

@@ -1,0 +1,5 @@
+CORE-SITE.XML_fs.defaultFS=hdfs://namenode:8020
+HDFS-SITE.XML_dfs.namenode.name.dir=file:///tmp/hdfs/name
+HDFS-SITE.XML_dfs.datanode.data.dir=file:///tmp/hdfs/data
+HDFS-SITE.XML_dfs.replication=3
+HDFS-SITE.XML_dfs.namenode.heartbeat.recheck-interval=10000

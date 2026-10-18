@@ -1,0 +1,11 @@
+services:
+  crdb:
+    image: cockroachdb/cockroach:v25.4.17
+    command: start --insecure --join=cockroachdb-crdb-1,cockroachdb-crdb-2,cockroachdb-crdb-3
+    ports:
+      - 26257-26259:26257
+      - 8080-8082:8080
+    volumes:
+      - ./sql:/sql
+    deploy:
+      replicas: 3
