@@ -1,2 +1,4 @@
 spark/
 .ipynb_checkpoints/
+output_wordcount/
+output_players/

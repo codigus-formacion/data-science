@@ -1,0 +1,111 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+2023-08-12,Manchester Utd,Wolves,1,0,Premier League,Manchester,England,FALSE
+2023-08-12,Arsenal,Nottingham Forest,2,1,Premier League,London,England,FALSE
+2023-08-12,Chelsea,Liverpool,1,1,Premier League,London,England,FALSE
+2023-08-13,Manchester City,Newcastle,4,1,Premier League,Manchester,England,FALSE
+2023-08-13,Tottenham,Brighton,2,2,Premier League,London,England,FALSE
+2023-08-19,Liverpool,Manchester Utd,3,0,Premier League,Liverpool,England,FALSE
+2023-08-19,Newcastle,Chelsea,1,2,Premier League,Newcastle,England,FALSE
+2023-08-19,Wolves,Arsenal,1,2,Premier League,Wolverhampton,England,FALSE
+2023-08-20,Brighton,Manchester City,1,3,Premier League,Brighton,England,FALSE
+2023-08-20,Nottingham Forest,Tottenham,0,2,Premier League,Nottingham,England,FALSE
+2023-08-26,Arsenal,Manchester Utd,3,1,Premier League,London,England,FALSE
+2023-08-26,Chelsea,Tottenham,1,4,Premier League,London,England,FALSE
+2023-08-26,Manchester City,Liverpool,2,2,Premier League,Manchester,England,FALSE
+2023-08-27,Newcastle,Brighton,1,0,Premier League,Newcastle,England,FALSE
+2023-08-27,Wolves,Nottingham Forest,2,1,Premier League,Wolverhampton,England,FALSE
+2023-09-02,Liverpool,Newcastle,2,1,Premier League,Liverpool,England,FALSE
+2023-09-02,Manchester Utd,Chelsea,2,2,Premier League,Manchester,England,FALSE
+2023-09-02,Tottenham,Arsenal,2,3,Premier League,London,England,FALSE
+2023-09-03,Brighton,Wolves,1,1,Premier League,Brighton,England,FALSE
+2023-09-03,Nottingham Forest,Manchester City,0,2,Premier League,Nottingham,England,FALSE
+2023-09-16,FC Barcelona,Real Betis,5,0,La Liga,Barcelona,Spain,FALSE
+2023-09-16,Real Madrid,Real Sociedad,2,1,La Liga,Madrid,Spain,FALSE
+2023-09-16,Atletico Madrid,Valencia,3,0,La Liga,Madrid,Spain,FALSE
+2023-09-17,Sevilla,Villarreal,1,2,La Liga,Seville,Spain,FALSE
+2023-09-17,Athletic Bilbao,Girona,0,0,La Liga,Bilbao,Spain,FALSE
+2023-09-23,Real Betis,Real Madrid,0,1,La Liga,Seville,Spain,FALSE
+2023-09-23,Real Sociedad,FC Barcelona,1,2,La Liga,San Sebastian,Spain,FALSE
+2023-09-23,Valencia,Sevilla,2,1,La Liga,Valencia,Spain,FALSE
+2023-09-24,Villarreal,Atletico Madrid,2,2,La Liga,Villarreal,Spain,FALSE
+2023-09-24,Girona,Athletic Bilbao,3,0,La Liga,Girona,Spain,FALSE
+2023-09-30,FC Barcelona,Atletico Madrid,1,0,La Liga,Barcelona,Spain,FALSE
+2023-09-30,Real Madrid,Girona,3,0,La Liga,Madrid,Spain,FALSE
+2023-09-30,Sevilla,Real Betis,1,1,La Liga,Seville,Spain,FALSE
+2023-10-01,Athletic Bilbao,Valencia,2,1,La Liga,Bilbao,Spain,FALSE
+2023-10-01,Villarreal,Real Sociedad,1,1,La Liga,Villarreal,Spain,FALSE
+2023-10-07,Atletico Madrid,Real Sociedad,2,1,La Liga,Madrid,Spain,FALSE
+2023-10-07,Valencia,FC Barcelona,1,4,La Liga,Valencia,Spain,FALSE
+2023-10-08,Real Betis,Athletic Bilbao,1,0,La Liga,Seville,Spain,FALSE
+2023-10-08,Girona,Sevilla,2,1,La Liga,Girona,Spain,FALSE
+2023-10-08,Real Madrid,Villarreal,4,0,La Liga,Madrid,Spain,FALSE
+2023-08-15,Paris SG,Lyon,2,1,Ligue 1,Paris,France,FALSE
+2023-08-15,Marseille,Monaco,1,1,Ligue 1,Marseille,France,FALSE
+2023-08-15,Lille,Nice,2,0,Ligue 1,Lille,France,FALSE
+2023-08-20,Lyon,Marseille,0,3,Ligue 1,Lyon,France,FALSE
+2023-08-20,Monaco,Paris SG,1,2,Ligue 1,Monaco,France,FALSE
+2023-08-20,Nice,Lille,1,1,Ligue 1,Nice,France,FALSE
+2023-08-27,Paris SG,Nice,3,0,Ligue 1,Paris,France,FALSE
+2023-08-27,Marseille,Lille,2,1,Ligue 1,Marseille,France,FALSE
+2023-08-27,Lyon,Monaco,2,2,Ligue 1,Lyon,France,FALSE
+2023-09-03,Lille,Lyon,1,0,Ligue 1,Lille,France,FALSE
+2023-09-03,Monaco,Marseille,3,1,Ligue 1,Monaco,France,FALSE
+2023-09-03,Nice,Paris SG,0,2,Ligue 1,Nice,France,FALSE
+2023-08-18,Bayern Munich,Borussia Dortmund,3,1,Bundesliga,Munich,Germany,FALSE
+2023-08-18,RB Leipzig,Bayer Leverkusen,2,2,Bundesliga,Leipzig,Germany,FALSE
+2023-08-19,Eintracht Frankfurt,Wolfsburg,1,0,Bundesliga,Frankfurt,Germany,FALSE
+2023-08-25,Borussia Dortmund,RB Leipzig,0,1,Bundesliga,Dortmund,Germany,FALSE
+2023-08-25,Bayer Leverkusen,Bayern Munich,2,2,Bundesliga,Leverkusen,Germany,FALSE
+2023-08-26,Wolfsburg,Eintracht Frankfurt,2,1,Bundesliga,Wolfsburg,Germany,FALSE
+2023-09-01,Bayern Munich,Eintracht Frankfurt,4,0,Bundesliga,Munich,Germany,FALSE
+2023-09-01,RB Leipzig,Wolfsburg,2,0,Bundesliga,Leipzig,Germany,FALSE
+2023-09-02,Borussia Dortmund,Bayer Leverkusen,1,3,Bundesliga,Dortmund,Germany,FALSE
+2023-09-15,Wolfsburg,Bayern Munich,1,2,Bundesliga,Wolfsburg,Germany,FALSE
+2023-09-15,Eintracht Frankfurt,Borussia Dortmund,2,2,Bundesliga,Frankfurt,Germany,FALSE
+2023-09-16,Bayer Leverkusen,RB Leipzig,3,0,Bundesliga,Leverkusen,Germany,FALSE
+2023-08-14,Boca Juniors,River Plate,1,1,Superliga Argentina,Buenos Aires,Argentina,FALSE
+2023-08-14,Racing Club,Independiente,2,0,Superliga Argentina,Avellaneda,Argentina,FALSE
+2023-08-20,River Plate,Racing Club,3,1,Superliga Argentina,Buenos Aires,Argentina,FALSE
+2023-08-20,Independiente,Boca Juniors,0,2,Superliga Argentina,Avellaneda,Argentina,FALSE
+2023-08-27,Boca Juniors,Racing Club,2,1,Superliga Argentina,Buenos Aires,Argentina,FALSE
+2023-08-27,River Plate,Independiente,4,0,Superliga Argentina,Buenos Aires,Argentina,FALSE
+2023-09-03,Racing Club,River Plate,1,1,Superliga Argentina,Avellaneda,Argentina,FALSE
+2023-09-03,Independiente,Boca Juniors,1,3,Superliga Argentina,Avellaneda,Argentina,FALSE
+2023-09-17,Argentina,Ecuador,1,0,FIFA World Cup qualification,Buenos Aires,Argentina,FALSE
+2023-09-21,Bolivia,Argentina,0,3,FIFA World Cup qualification,La Paz,Bolivia,FALSE
+2023-10-12,Argentina,Paraguay,1,0,FIFA World Cup qualification,Buenos Aires,Argentina,FALSE
+2023-10-17,Peru,Argentina,0,2,FIFA World Cup qualification,Lima,Peru,FALSE
+2023-11-16,Brazil,Argentina,0,1,FIFA World Cup qualification,Rio de Janeiro,Brazil,TRUE
+2023-11-21,Argentina,Uruguay,2,0,FIFA World Cup qualification,Buenos Aires,Argentina,FALSE
+2023-06-15,Argentina,Australia,2,0,Friendly,Beijing,China,TRUE
+2023-06-20,Argentina,Indonesia,2,0,Friendly,Jakarta,Indonesia,TRUE
+2023-09-07,Argentina,Mexico,3,0,Friendly,San Diego,USA,TRUE
+2023-09-12,Argentina,Ecuador,1,0,Friendly,Chicago,USA,TRUE
+2023-06-16,Brazil,Senegal,1,1,Friendly,Lisbon,Portugal,TRUE
+2023-06-21,Brazil,Guinea,4,1,Friendly,Barcelona,Spain,TRUE
+2023-09-08,Brazil,Bolivia,5,1,Friendly,Belem,Brazil,FALSE
+2023-09-12,Brazil,Peru,1,0,Friendly,Lima,Peru,TRUE
+2023-10-13,Brazil,Venezuela,3,0,FIFA World Cup qualification,Cuiaba,Brazil,FALSE
+2023-10-17,Uruguay,Brazil,2,0,FIFA World Cup qualification,Montevideo,Uruguay,FALSE
+2023-11-16,Colombia,Brazil,2,1,FIFA World Cup qualification,Barranquilla,Colombia,FALSE
+2023-11-21,Brazil,Argentina,0,1,FIFA World Cup qualification,Rio de Janeiro,Brazil,TRUE
+2023-09-08,France,Ireland,2,0,UEFA Euro qualification,Paris,France,FALSE
+2023-09-11,Netherlands,France,2,1,UEFA Euro qualification,Amsterdam,Netherlands,FALSE
+2023-10-13,France,Scotland,4,0,UEFA Euro qualification,Paris,France,FALSE
+2023-10-16,Gibraltar,France,0,3,UEFA Euro qualification,Faro,Portugal,TRUE
+2023-11-17,France,Gibraltar,14,0,UEFA Euro qualification,Nice,France,FALSE
+2023-11-20,Greece,France,2,2,UEFA Euro qualification,Athens,Greece,FALSE
+2023-09-09,Germany,Japan,4,1,Friendly,Wolfsburg,Germany,FALSE
+2023-09-12,France,Germany,2,1,Friendly,Dortmund,Germany,FALSE
+2023-10-14,Germany,Turkey,3,2,Friendly,Berlin,Germany,FALSE
+2023-10-17,Austria,Germany,0,2,Friendly,Vienna,Austria,FALSE
+2023-11-18,Germany,Mexico,2,2,Friendly,Philadelphia,USA,TRUE
+2023-03-23,Portugal,Liechtenstein,4,0,UEFA Euro qualification,Lisbon,Portugal,FALSE
+2023-03-26,Luxembourg,Portugal,0,6,UEFA Euro qualification,Luxembourg,Luxembourg,FALSE
+2023-09-08,Portugal,Slovakia,3,0,UEFA Euro qualification,Lisbon,Portugal,FALSE
+2023-09-11,Luxembourg,Portugal,0,3,UEFA Euro qualification,Luxembourg,Luxembourg,FALSE
+2023-10-13,Portugal,Bosnia and Herzegovina,5,0,UEFA Euro qualification,Lisbon,Portugal,FALSE
+2023-10-16,Iceland,Portugal,1,2,UEFA Euro qualification,Reykjavik,Iceland,FALSE
+2023-11-16,Portugal,Liechtenstein,2,0,UEFA Euro qualification,Lisbon,Portugal,FALSE
+2023-11-19,Portugal,Iceland,1,2,UEFA Euro qualification,Lisbon,Portugal,FALSE
+2023-10-03,Paris SG,Olympique Lyonnais,2,1,League A,Paris,France,FALSE
